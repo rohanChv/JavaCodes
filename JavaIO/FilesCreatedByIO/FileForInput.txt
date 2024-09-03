@@ -1,0 +1,2 @@
+Hi There !!!This file is created to Read the Contents of The File by using File IO Stream
+skd
