@@ -14,5 +14,9 @@ public class FareCalculator {
         BigDecimal farePerPassenger=amountToBePaid.divide(passengerCount,4, RoundingMode.HALF_DOWN);
 
         System.out.println("Rounded Fare with Int 4 is  "+ farePerPassenger);
+
+        farePerPassenger=amountToBePaid.divide(passengerCount,0, RoundingMode.DOWN);
+        System.out.println(farePerPassenger);
+
     }
 }
